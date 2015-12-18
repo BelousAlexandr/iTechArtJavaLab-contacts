@@ -17,28 +17,31 @@ app.filterContacts = function () {
     var city = document.getElementById('city');
     var href = "?";
     href = href + app.buildHref(firstName, 'firstName=');
-    href = href + app.buildHref(lastName, '&lastName=');
-    href = href + app.buildHref(middleName, '&middleName=');
-    href = href + app.buildHref(dateFrom, '&dateFrom=');
-    href = href + app.buildHref(dateTo, '&dateTo=');
-    href = href + app.buildHref(app.getGender(gender), '&gender=');
-    href = href + app.buildHref(nationality, '&nationality=', href);
-    href = href + app.getRelationshipStatus(relationshipStatus, '&relationshipStatus=');
-    href = href + app.buildHref(country, '&country=');
-    href = href + app.buildHref(city, '&city=');
+    href = href + app.buildHref(lastName, 'lastName=');
+    href = href + app.buildHref(middleName, 'middleName=');
+    href = href + app.buildHref(dateFrom, 'dateFrom=');
+    href = href + app.buildHref(dateTo, 'dateTo=');
+    href = href + app.buildHref(app.getGender(gender), 'gender=');
+    href = href + app.buildHref(nationality, 'nationality=', href);
+    href = href + app.getRelationshipStatus(relationshipStatus, 'relationshipStatus=');
+    href = href + app.buildHref(country, 'country=');
+    href = href + app.buildHref(city, 'city=');
 
     if (href !== "?") {
         var location = window.location.href;
         location = location.substring(0, location.length - 1);
+        if (href.charAt(href.length-1) === '&') {
+            href = href.substring(0, href.length-1);
+        }
         window.location.href = location + href;
     } else {
-        console.log("здрасте");
+        console.log("error");
     }
 };
 
 app.buildHref = function(element, name) {
     if (element !== null && element !== undefined && element.value !== null && element.value !== "") {
-        return name + encodeURIComponent(element.value);
+        return name + encodeURIComponent(element.value) + '&';
     }
     return "";
 };
