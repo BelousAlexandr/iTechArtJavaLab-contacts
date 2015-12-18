@@ -1,0 +1,58 @@
+.sex {
+    padding-top: 1%;
+}
+
+header {
+    text-align: center;
+}
+
+#search_contacts_header {
+    background-color: white;
+    color: #286090;
+    font-family: "Verdana", serif;
+}
+
+@media only screen and (max-width: 1400px) {
+    footer, header, section {
+        font-size: 110%;
+    }
+    h2 {
+        font-size: 200%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    footer, header, section {
+        font-size: 100%;
+    }
+    h2 {
+        font-size: 190%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    footer, header, section {
+        font-size: 90%;
+    }
+    h2 {
+        font-size: 180%;
+    }
+}
+
+@media only screen and ( max-width: 500px) {
+    footer, header, section {
+        font-size: 80%;
+    }
+    h2 {
+        font-size: 170%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    footer, header, section {
+        font-size: 70%;
+    }
+    h2 {
+        font-size: 160%;
+    }
+}

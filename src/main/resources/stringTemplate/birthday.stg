@@ -1,0 +1,24 @@
+happyBirthdayRU(name) ::= <<
+    <name>!!!
+    С днем рождения
+    С огромным удовольствием я хочу пожелать вам крепкого здоровья, любви,
+    счастья и свободы в мечтаниях. Также желаю тебе вечной молодости,
+    оригинальных идей и значительного успеха во всем, что ты делаешь!
+    Будьте счастливы! Оставайтесь собой, что бы ни случилось!
+>>
+
+happyBirthdayEN(name) ::= <<
+Dear <name>!
+Happy birthday
+    With great pleasure I want to wish you much health, love,
+    happiness and freedom in your dreams. Wish you eternal youth,
+    original ideas, big success in everything you do! Be happy!
+    Try to save you would not be happening.
+>>
+
+happyBirthdayAll(name) ::=<<
+Дорогие <name>!
+Поздравляем вас с днем рождения!
+Пусть на протяжении всей жизни вам сопутствует удача!
+С наилучшими пожеланиями, ваш iTechArt Group!
+>>

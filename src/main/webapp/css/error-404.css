@@ -1,0 +1,49 @@
+p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-size: 100%;
+    background: url(/images/bg.jpg) no-repeat fixed 100% 100%;
+    background-size: cover;
+}
+
+.wrap {
+    width: 70%;
+    margin: 5.2% auto 4% auto;
+}
+
+.logo h1 {
+    display: block;
+    padding: 2em;
+}
+
+.logo span img {
+    width: 40px;
+    height: 40px;
+    vertical-align: bottom;
+    margin: 10px;
+}
+
+.logo img {
+    width: 315px;
+}
+
+.logo {
+    padding: 1% 1% 12% 1%;
+    text-align: center;
+}
+
+.logo span {
+    font-size: 2em;
+    color: #fff;
+}
+
+.copy_right {
+    text-align: center;
+    color: white;
+    font-size: 10px;
+    margin-top: 5%;
+}

@@ -1,0 +1,55 @@
+body {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.pager li>a {
+    background-color: #d93739;
+    width: 10%;
+}
+.pager li>a:hover {
+    background-color: #d9534f;
+}
+
+#contacts_header {
+    background-color: white;
+    color: #286090;
+    font-family: "Verdana", serif;
+    text-align: center;
+}
+
+th {
+    text-align: center;
+}
+
+ li > a {
+    background-color: green;
+}
+
+#mainpanel {
+    background: green;
+}
+
+li > a {
+    color: white;
+}
+
+#compose {
+    height: 3em;
+    width: 100%;
+    background-color: green;
+}
+
+#contacts_list {
+    padding-top: 50px;
+}
+
+.bs-checkbox {
+    width: 25px;
+}
+table {
+    width: 100%;
+}
+thead th tbody td{
+    display: inline-block;
+}

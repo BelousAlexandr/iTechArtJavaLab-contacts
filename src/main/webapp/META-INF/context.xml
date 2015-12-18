@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Context>
+    <Resource name="jdbc/iTechArtJavaLab-contacts" auth="Container" type="javax.sql.DataSource"
+              maxActive="50"
+              maxIdle="30"
+              maxWait="10000"
+              username="belous"
+              password="belous"
+              driverClassName="com.mysql.jdbc.Driver"
+              url="jdbc:mysql://localhost:3306/contacts?characterEncoding=UTF-8"/>
+</Context>
